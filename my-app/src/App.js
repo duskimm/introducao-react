@@ -3,6 +3,8 @@ import './App.css';
 import Content from './Content';
 import Footer from './Footer';
 import Header from './Header';
+import Image from './Image';
+import staringCat from './staringCat.jpg';
 
 class App extends React.Component {
   render() {
@@ -11,6 +13,7 @@ class App extends React.Component {
         <Header/>
         <Content/>
         <Footer/>
+        <Image source= { staringCat } alternativeText= { "Cute cat staring" } />
       </div>
     );
   }
